@@ -1,0 +1,94 @@
+
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="../images/headshot.jpg" alt="{{name}}" />
+		</div>
+
+		<div id="name">
+
+      <h1  >{{name}}</h1>
+      <br/>
+      <h3>{{status}}</h3>
+		</div>
+
+		<div id="contactDetails" >
+			<ul>
+				<li>e: <a href="mailto:{{mail}}" target="_blank"  >{{mail}}</a></li>
+
+				<li>{{phone}}</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" >
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Résumé</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>{{resume}}</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Projets</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article ng-repeat="project in projects">
+					<h2>{{project.name}}</h2>
+					<p class="subDetails">{{project.date}}</p>
+					<p>{{project.description}}</p>
+				</article>
+
+
+
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li ng-repeat="skill in skills">{{skill[0] +" : "+skill[1]+" %"}} </li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article ng-repeat="diplome in diplomes">
+					<h2>{{diplome.name}}</h2>
+					<p class="subDetails">{{diplome.date}}</p>
+					<p></p>
+				</article>
+
+
+			</div>
+			<div class="clear"></div>
+		</section>
+
+	</div>
+</div>
+</body>

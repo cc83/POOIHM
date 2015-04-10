@@ -1,0 +1,61 @@
+{
+
+  "person" :
+        {
+          "firstname": "Christophe",
+          "lastname": "CAPPE",
+          "age" : "01/09/1995",
+          "status" : "Etudiant en sciences informatiques",
+          "adress" : "Draguignan",
+          "phone" : "06XXXXXXXX",
+          "email" : "cappe@polytech.unice.fr",
+          "apropos" : "Je suis actuellement étudiant à Polytech' Nice Sophia dans le département informatique SI3"
+        },
+
+  "diplomes" : [
+    {
+      "name" :"Polytech' Nice Sophia",
+      "date" : "2012-2015"
+    }
+    ,
+    {
+      "name" : "Baccalauréat général Série S",
+      "date" : "2012"
+    }
+    ],
+
+
+
+  "projects" : [
+    {
+      "name" : "2048",
+      "date" : "2014",
+      "description" : "Création du jeu 2048 en java"
+    },
+    {
+      "name" : "Siam",
+      "date" : "2013",
+      "description" : "Création du jeu de plateau Siam"
+    },
+    {
+      "name" : "Site web",
+      "date" : "2014",
+      "description" : "Création d'un site web permettant de déposer des questionnaires et d'y répondre"
+    },
+    {
+      "name" : "Projet Devint",
+      "date" : "2015",
+      "description" : "Création d'un jeu pour des malvoyants basé sur le mouvement fonctionnant à l'aide de smartphones"
+    }
+
+  ]
+  ,
+  "skills" : [
+    ["Java",80],
+    ["C",40],
+    ["Python",50],
+    ["PHP",60]
+  ]
+
+
+}
